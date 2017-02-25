@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--vieport meta tage to ensure screen width set to device width-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Laila's</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style>
+      .jumbotron {
+           padding: 70px 30px 70px 30px;
+           margin: 0px auto;
+           background: #fff7f8;
+           color: #9A9A9A;
+           font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+       }
+       .row-header{
+            margin:0px auto;
+            padding:0px auto;
+      }
+
+       .row-content {
+           margin:0px auto;
+           padding: 50px 0px 50px 0px;
+           background: #FCFCFC;
+           border-bottom: 1px ridge;
+           min-height:400px;
+        }
+
+       .row-footer{
+           background-color: #AfAfAf;
+           margin:0px auto;
+           padding: 20px 0px 20px 0px;
+       }
+       address{
+            font-size:80%;
+            margin:0px;
+            color:#0f0f0f;
+        }
+
+        h1 {
+            font-size: 5em;
+        }
+        p, h2, h3, h5 {
+           color: #5A5A5A;
+           font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+        }
+        .navbar {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            color: #5A5A5A;
+        }
+       .nav > li > a:hover, .nav > li > a:focus, 
+       .navbar-nav > li.open > a:hover,
+       .navbar-nav > li.open > a:focus  {
+            background-color: #EF92A5;
+            text-decoration: none;
+        }
+        .navbar-nav > .active > a,
+        .navbar-nav > .active > a:hover,
+        .navbar-nav > .active > a:focus {
+              background-color: #EF92A5;
+        }
+        .navbar-nav > li >a {
+           
+           color:white;
+       }
+       .dropdown-menu > li> a:hover {
+        background-color: #fff7f8;
+        background-image: none;
+       }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #FFC0CB;" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="color:white"><i class="fa fa-birthday-cake" aria-hidden="true"></i></a>
+            </div>
+
+
+           <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>  Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cupcakes</a></li>
+                            <li><a href="#">Birthday Cakes</a></li>
+                            <li><a href="#">Treats</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+           </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+
+        <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12" style="vertical-align:middle; text-align:center">
+                    <p style="padding:20px ;"></p>
+                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11535855_724670157655305_1361194735834040372_n.png?oh=d5e493e42705489571ffbdb4e2e9ed8d&oe=593B4883"  height=210 width=270>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Cupcakes</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h2> Bites of happiness </h2>
+                <p>A delightful assortnment of cupcakes.</p>
+                <p><a  href="#">More &raquo;</a></p>
+            </div>
+        </div>
+
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Treats</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h2>Cake Pops, Summer Delights, and More!</h2>
+                <p>Cake pops perfect for any event, mango croquant pie, and much more! </p>
+                <p><a href="#">More &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="row row-content">
+          <div class="col-xs-12 col-sm-3">
+              <p style="padding:20px;"></p>
+              <h3 align=center>Birthday Cakes</h3>
+          </div>
+          <div class="col-xs-12 col-sm-9">
+             <h2>Custom Birthday Cakes</h2>
+             <p>Birthday cakes customised to your every wish!</p>
+             <p><a href="#">More &raquo;</a></p>
+          </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row row-footer">
+                <p style="padding:10px;"></p>             
+                <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-5">
+                    <h5>Contact Us</h5>
+                    <p>
+                      <i class="fa fa-phone"></i>: +201095609999<br>
+                   </p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="nav navbar-nav" style="padding:10px 0px 20px 0px;">
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/lailasloveatfirstbite/"><i class="fa fa-facebook fa-2x"></i></a><br>
+                        <a class="btn btn-social-icon" href="https://www.instagram.com/lailas_loveatfirstbite/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    <p align=center>© Copyright 2015 Laila's</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery for Bootstrap's JavaScript plugins-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
